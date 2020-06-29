@@ -8,38 +8,4 @@ React-based Google Books Search app. This SPA (Single Page Application) uses [`r
 
 `mongoose`, `axios`, `react-router-dom`, `react-toastify`
 
-## Database
-
-1. Connect to a MongoDB database named `googlebooks` using the mongoose npm package.
-
-2. Using mongoose, create a Book schema.
-
-3. Books should have each of the following fields:
-
-* `title` - Title of the book from the Google Books API
-
-* `authors` - The books's author(s) as returned from the Google Books API
-
-* `description` - The book's description as returned from the Google Books API
-
-* `image` - The Book's thumbnail image as returned from the Google Books API
-
-* `link` - The Book's information link as returned from the Google Books API
-
-
-
-
-### Technologies Implemented
-
-* Bootstrap
-* Express
-* Node.js
-* React
-* MongoDB
-* Heroku
-
-### Live site
-
-* deployed: https://lil-google-books-search.herokuapp.com/
-
 
